@@ -1,15 +1,32 @@
-let myName = "Marco";
+let age = "16";
+let tot = "99";
 
-let mySurname = 'Messina';
+let totale = age > 15 ? "Marco" : ( age < 9 ? "Mario" : "Rossi");
 
-let job = `<div>
-                <div>
-                    <p> pippo </p>
-                </div>
-            </div>`
+console.log(totale);
 
-let age = 27;
+/* if( age > 15 ) {
+    let totale = "Marco";
+} else {
+    let totale = "Messina";
+} */
 
-let isDark = false;
+switch (age) {
+    case 17:
 
-console.log(age);
+    alert("minore di 18");
+
+    break;
+
+    case 19:
+        
+    alert("maggiore di 18");
+
+    break;
+
+    default:
+
+    alert("Sei maggiorenne");
+
+    break;
+}
